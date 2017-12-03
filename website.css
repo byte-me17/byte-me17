@@ -1,0 +1,93 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(255, 0, 0, 0.4);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: white;
+    color: #f44336;
+    text-decoration: none;
+}
+
+h1 {
+  font-weight: bold;
+  text-align: center;
+  padding-top: 15px;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+  padding: 0 40px 0 40px;
+}
+
+.row {
+  padding: 15px;
+}
+
+body {
+  background-image: url(./Images/baubles.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Karla', sans-serif;
+}
+
+.fa {
+  position:static;
+  padding: 20px;
+  font-size: 50px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+form {
+  padding-bottom: 0;
+  position: relative;
+  margin-bottom: 0;
+}
+
+button {
+  margin-top: 20px;
+  position: relative;
+}
